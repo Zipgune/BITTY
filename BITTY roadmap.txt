@@ -1,0 +1,115 @@
+# Zcash Hackathon Roadmap
+
+**Hackathon deadline:** December 10  
+**Goal:** Have the Bitty + Zcash ecosystem live with:
+- Raydium Bitty token launched and liquid
+- Zcash Bitty token + contracts deployed
+- Liquidity pools online (Bitty ↔ Zcash / Bitty ↔ BRC2.0)
+- Basic treasury multisig set up
+- Public docs and links ready for judges and users
+
+Stretch goal: Early preview of a Meme Creator concept (even a simple stub).
+
+---
+
+## Phase 1 – Raydium Launch & Foundation
+
+**Goal:** Lock in the initial token launch and ecosystem foundation.
+
+**Tasks**
+- [ ] Confirm Raydium Bitty token contract, decimals, and symbol.
+- [ ] Confirm Raydium liquidity pool(s) and current liquidity.
+- [ ] Document Raydium deployment (addresses + links).
+- [ ] Confirm status of:
+  - [ ] Zcash rails
+  - [ ] Light wallet
+  - [ ] BRC2.0 adapters
+- [ ] Set up or verify official socials:
+  - [ ] Twitter / X
+  - [ ] Discord
+  - [ ] Telegram
+  - [ ] Basic landing page or website
+
+**Dependencies:** Bitty token deployed on Raydium.
+
+---
+
+## Phase 2 – Zcash Bitty & Smart Contracts (Front-Loaded)
+
+**Goal:** Zcash Bitty live and usable *before* the end of the hackathon.
+
+**Tasks**
+- [ ] Finalize Zcash rails and adapter layer (confirm and extend existing work).
+- [ ] Implement Zcash Bitty token contract.
+- [ ] Wire interoperability hooks (Bitty / BRC2.0 side).
+- [ ] Add basic tests and sanity checks.
+- [ ] Deploy Zcash Bitty to testnet/mainnet.
+- [ ] Document contract addresses and usage.
+
+**Dependencies:** Zcash rails and adapters functional.
+
+---
+
+## Phase 3 – Liquidity & Ecosystem Kickoff
+
+**Goal:** Make Bitty tradable and attractive for early users.
+
+**Tasks**
+- [ ] Define liquidity pairs and strategy:
+  - [ ] Bitty ↔ Zcash
+  - [ ] Bitty ↔ BRC2.0
+- [ ] Create and seed liquidity pools.
+- [ ] Define initial allocation between dev fund and LP seeding.
+- [ ] Publish “How to LP” instructions for users.
+- [ ] Add LP links and docs to the website.
+
+**Dependencies:** Zcash Bitty deployed and stable.
+
+---
+
+## Phase 4 – Treasury & Basic Infrastructure
+
+**Goal:** Minimum viable treasury and infra for a real project.
+
+**Tasks**
+- [ ] Create Squads v4 multisig for Solana Bitty treasury.
+- [ ] Configure owners and threshold and document them.
+- [ ] Fund the multisig from initial allocation.
+- [ ] Integrate Helius for:
+  - [ ] Basic transaction indexing / monitoring
+  - [ ] Any required linkage with Zcash / BRC2.0 flows
+- [ ] Document how treasury funds move (treasury → LPs → dev fund).
+
+**Dependencies:** Raydium + contracts live (so the multisig manages meaningful funds).
+
+---
+
+## Post-Hackathon (Later / Out of Scope for MVP)
+
+### Phase 5 – Full Bitty Ecosystem Migration
+
+**Goal:** Move from the Raydium launch to the full Bitty ecosystem.
+
+- [ ] Migrate Raydium launch tokens to native Solana Bitty coin.
+- [ ] Update contracts, liquidity pools, and bridges.
+- [ ] Publish and execute a user-facing migration plan.
+
+### Phase 6 – Meme Creator Platform
+
+**Goal:** Build user engagement and creator tools.
+
+- [ ] Meme Creator core:
+  - [ ] Template library and NFT minting
+  - [ ] Wallet integration (Bitty + Zcash)
+  - [ ] Web UI
+- [ ] Connect Meme Creator rewards and flows to Bitty.
+
+---
+
+## Immediate Next Steps
+
+- [ ] Confirm current progress on Zcash rails and adapters.
+- [ ] Document Raydium deployment (token + pool addresses).
+- [ ] Create a GitHub Project board for hackathon work.
+- [ ] Create and assign issues for each roadmap task.
+- [ ] Set a weekly sync rhythm and adjust priorities as needed.
