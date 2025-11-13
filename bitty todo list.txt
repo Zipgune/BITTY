@@ -1,0 +1,70 @@
+todo
+```
+# Hackathon TODOs – Zcash + Bitty (4 Weeks to Dec 10)
+
+This file breaks the roadmap into a 4-week execution plan.
+Tasks are unassigned here; assign via GitHub Issues / Project.
+
+---
+
+## Week 1 – Foundation & Clarity
+
+- [ ] Confirm the status of Zcash rails, light wallet, and BRC2.0 adapters.
+- [ ] Write a short doc summarizing what is done and what is missing for Zcash rails.
+- [ ] Set up or update contract repo/directories for Zcash Bitty.
+- [ ] Start the Zcash Bitty token contract skeleton and basic tests.
+- [ ] Add `ROADMAP.md` and this `TODO.md` to the repo.
+- [ ] Create a GitHub Project board for hackathon work (e.g., "Hackathon MVP (Dec 10)").
+- [ ] Document Raydium Bitty deployment:
+  - [ ] Token address, decimals, symbol
+  - [ ] Pool addresses and links
+- [ ] Create or update a basic landing page with:
+  - [ ] Project overview
+  - [ ] Raydium token + pool links
+  - [ ] “Zcash Bitty coming soon” section.
+
+---
+
+## Week 2 – Zcash Bitty Live
+
+- [ ] Complete the Zcash Bitty contract implementation.
+- [ ] Integrate with Zcash rails / adapter layer.
+- [ ] Add tests for mint, transfer, and interoperability hooks.
+- [ ] Deploy Zcash Bitty to testnet/mainnet (as required by hackathon).
+- [ ] Document Zcash Bitty contract address and usage.
+- [ ] Add a docs page explaining how Zcash Bitty fits into the Bitty ecosystem.
+- [ ] Update the landing page to show Zcash Bitty status and contract link.
+- [ ] Wire any basic Helius integration needed for tracking Bitty/Zcash activity.
+
+---
+
+## Week 3 – Liquidity & Treasury
+
+- [ ] Decide on liquidity pairs and parameters:
+  - [ ] Bitty ↔ Zcash
+  - [ ] Bitty ↔ BRC2.0
+- [ ] Create liquidity pools on Raydium (or chosen DEX).
+- [ ] Seed initial liquidity (from dev fund / treasury allocation).
+- [ ] Create Squads v4 multisig treasury wallet for the Bitty ecosystem.
+- [ ] Configure multisig owners and threshold.
+- [ ] Fund the multisig with initial allocation.
+- [ ] Document multisig address, owners, threshold, and its role in the system.
+- [ ] Draft a simple “How to LP” guide.
+
+---
+
+## Week 4 – Polish & Demo Preparation
+
+- [ ] Do a basic review of contract code for obvious issues.
+- [ ] Prepare a technical walkthrough:
+  - [ ] Diagram showing Bitty, Zcash, BRC2.0, and LP interactions.
+- [ ] Polish the landing page:
+  - [ ] All contract, pool, and treasury links are working.
+  - [ ] Simple explanation suitable for hackathon judges.
+- [ ] Add a stub or mock page for the Meme Creator concept (optional stretch goal).
+- [ ] Write a demo script:
+  - [ ] Show Raydium token and pools
+  - [ ] Show Zcash Bitty contract
+  - [ ] Show LP setup
+  - [ ] Show multisig treasury
+```
